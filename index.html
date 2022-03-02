@@ -1,13 +1,35 @@
 <!DOCTYPE html>
-<html>
+<!-- ICS20-Unit-1-04-HTML-CSS-->
+<html lang="en-ca">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <title>replit</title>
-    <link href="style.css" rel="stylesheet" type="text/css" />
+    <meta charset="utf-8"
+    <meta name="description" content="My first webpage, with MDL">
+    <meta name="keywords" content="mths, ics2o">
+    <meta name="author" content="Kenny Le">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+    <title>Favicon</title>
+    <href="./favicon-32x32.png"</href>
   </head>
   <body>
-    Hello world
-    <script src="script.js"></script>
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+    <!-- Always shows a header, even in smaller screens. -->
+<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+  <header class="mdl-layout__header">
+    <div class="mdl-layout__header-row">
+      <!-- Title -->
+      <span class="mdl-layout-title">Favicon</span>
+    <!-- Colored FAB button with ripple -->
+    <button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored">
+      <i class="material-icons">add</i>
+    </button>
+    <!-- Textfield with Floating Label -->
+    <form action="#">
+      <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+        <input class="mdl-textfield__input" type="text" id="sample3">
+        <label class="mdl-textfield__label" for="sample3">Text...</label>
+      </div>
+    </form>
   </body>
 </html>
