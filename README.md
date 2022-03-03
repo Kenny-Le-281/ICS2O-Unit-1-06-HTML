@@ -4,4 +4,4 @@
 
 [![Run on Repl.it](https://repl.it/badge/github/Kenny-Le-281/Unit-1-06-HTML)](https://repl.it/github/Kenny-Le-281/Unit-1-06-HTML)
 
-[https://Kenny-Le-281.github.io/Unit-1-06-HTML](https://Kenny-Le-281.github.io/Unit-1-06-HTML)
+This site can be found at: [https://Kenny-Le-281.github.io/ICS2O-Unit-1-06-HTML](https://Kenny-Le-281.github.io/ICS2O-Unit-1-06-HTML)
